@@ -1,0 +1,160 @@
+.header {
+  display: flex;
+  flex-direction: column;
+}
+
+.headerTop {
+  display: flex;
+  margin-bottom: 22px;
+}
+
+.headerTopLink {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #ed1b23;
+  padding: 8px 25px;
+  border: 1px solid #f83c3c;
+  border-radius: 14px;
+  margin-right: 40px;
+}
+
+.green {
+  color: #00953f;
+  border: 1px solid #00953f;
+}
+
+.headerMiddle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 24px;
+}
+
+.headerMiddleSearch {
+  background: darken(#f8f8f8, 0%);
+  border: 1px solid #ff6600;
+  border-radius: 14px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  padding: 13px;
+  height: 48px;
+  width: 68%;
+  transition-duration: 0.2s;
+}
+
+.headerMiddleSearch:hover,
+.headerMiddleSearch:focus {
+  background: darken(#f8f8f8, 5%);
+}
+
+.headerMiddleProfile {
+  background: #ff6600;
+  border-radius: 14px;
+  height: 48px;
+  padding: 14px 19px 14px 16px;
+  display: flex;
+  align-items: center;
+  border: 1px solid #ff6600;
+  transition-duration: 0.2s;
+}
+
+.headerMiddleProfile:hover {
+  background-color: white;
+}
+
+.headerMiddleProfile:hover span {
+  color: #ff6600;
+}
+
+.headerMiddleProfile:hover .headerMiddleProfileImg * {
+  fill: #ff6600;
+}
+
+.headerMiddleProfile span {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+  margin-right: 13px;
+  transition-duration: 0.2s;
+}
+
+.headerMiddleCartPrice {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ff6600;
+  border-radius: 14px;
+  padding: 14px 17px 12px 16px;
+}
+
+.headerMiddleCartPrice span {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ff6600;
+  margin-right: 10px;
+}
+
+.headerMiddleCart {
+  background-color: #ff6600;
+  padding: 13px;
+  border-radius: 14px;
+  border: 1px solid #ff6600;
+  transition-duration: 0.2s;
+}
+
+.headerMiddleCart:hover {
+  background-color: white;
+}
+
+.headerMiddleCart:hover .headerMiddleCartImg * {
+  fill: #ff6600;
+}
+
+.headerBottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.headerBottomTab {
+  display: flex;
+  align-items: center;
+  background: #ffffff;
+  box-shadow: 0px 5px 6px rgba(0, 0, 0, 0.06);
+  border-radius: 14px;
+  padding: 12px 15px;
+  transition-duration: 0.2s;
+}
+
+.headerBottomTab:hover {
+  display: flex;
+  align-items: center;
+  background: #ffffff;
+  box-shadow: 0px 5px 6px rgba(0, 0, 0, 0.20);
+  border-radius: 14px;
+  padding: 12px 15px;
+}
+
+.headerBottomTab span {
+  margin-left: 10px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  background: linear-gradient(270deg, #222222 0%, #414141 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+
