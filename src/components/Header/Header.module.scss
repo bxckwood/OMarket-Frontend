@@ -3,6 +3,8 @@
 .header {
   display: flex;
   flex-direction: column;
+  padding: $padding-inner;
+  padding-top: 22px;
 }
 
 .headerTop {

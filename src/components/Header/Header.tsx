@@ -1,4 +1,4 @@
-import React, { FC } from "react";
+import { FC } from "react";
 import { Link } from "react-router-dom";
 
 import styles from "../Header/Header.module.scss";
@@ -7,7 +7,7 @@ import { ReactComponent as BigLogo } from "../../resources/header/bigLogo.svg";
 import { ReactComponent as Profile } from "../../resources/header/profile.svg";
 import { ReactComponent as Coin } from "../../resources/header/coin.svg";
 import { ReactComponent as Cart } from "../../resources/header/cart.svg";
-import { tabsData } from "./Data.Header";
+import { headerTabsData } from "./Data.Header";
 
 const Header: FC = () => {
   return (
@@ -41,7 +41,7 @@ const Header: FC = () => {
         </div>
       </div>
       <div className={styles.headerBottom}>
-        {tabsData.map((elem, index) => (
+        {headerTabsData.map((elem, index) => (
           <>
             <Link to={`/category/${elem.url}`} key={index} className={styles.headerBottomTab}>
               {elem.img}

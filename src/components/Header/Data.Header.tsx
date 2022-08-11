@@ -8,7 +8,7 @@ import { ReactComponent as Grocery } from "../../resources/header/grocery.svg";
 
 import { IHeaderTabs } from "../../interfaces/interfaces";
 
-export const tabsData: IHeaderTabs[] = [
+export const headerTabsData: IHeaderTabs[] = [
    {img: <All/>, title: "Все категории", url: "/"},
    {img: <Cup/>, title: "Напитки", url: "/"},
    {img: <Grocery/>, title: "Бакалея", url: "/"},
