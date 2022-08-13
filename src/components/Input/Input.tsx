@@ -22,7 +22,7 @@ const Input: FC<IInput> = ({
   const changeType = (textOrPassword: string) => {
     setInputType(textOrPassword);
   };
-  console.log(errors);
+
   return (
     <>
       <div className={styles.inputContainer}>
