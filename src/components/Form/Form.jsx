@@ -4,6 +4,7 @@ import Input from "../Input/Input";
 
 import styles from "../Form/Form.module.scss";
 import Button from "../Button/Button";
+import Dropdown from "../Dropdown/Dropdown";
 
 const Form= ({ dataRegisterPage }) => {
   const {
@@ -14,10 +15,11 @@ const Form= ({ dataRegisterPage }) => {
   } = useForm({ mode: "onChange" });
 
   const onSubmit = (data) => console.log(data);
-
+  console.log(dataRegisterPage.dropdowns)
   return (
     <form className={styles.form} onSubmit={handleSubmit(onSubmit)}>
       <h1 className={styles.formTitle}>{dataRegisterPage.title}</h1>
+      <Dropdown dataDropdown={dataRegisterPage.dropdowns}/>
       {dataRegisterPage.inputs.map((elem) => {
         const { placeholder, inputName, id, required, type, maxLength, minLength } = elem;
         return (
