@@ -50,8 +50,9 @@ export const dataRegisterPage = {
       type: "password",
     },
   ],
-  dropdowns: {
+  dropdowns: [{
     title: "Страна",
+    id: 0,
     select: [
       {
         img: <Kazakhstan />,
@@ -70,6 +71,7 @@ export const dataRegisterPage = {
       },
     ],
   },
+  ],
   title: "Регистрация",
 };
 
