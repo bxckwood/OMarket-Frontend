@@ -42,12 +42,14 @@ const Header: FC = () => {
       </div>
       <div className={styles.headerBottom}>
         {headerTabsData.map((elem, index) => (
-          <>
-            <Link to={`/category/${elem.url}`} key={index} className={styles.headerBottomTab}>
-              {elem.img}
-              <span>{elem.title}</span>
-            </Link>
-          </>
+          <Link
+            to={`/category/${elem.url}`}
+            key={index}
+            className={styles.headerBottomTab}
+          >
+            {elem.img}
+            <span>{elem.title}</span>
+          </Link>
         ))}
       </div>
     </header>
