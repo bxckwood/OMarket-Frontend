@@ -1,0 +1,51 @@
+@import "../../scss/variables";
+
+button {
+  margin-top: 8px;
+}
+
+.buttonActive {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  color: $orange;
+  background-color: white;
+  padding: 16px 80px;
+  border: 1px solid $orange;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.08);
+  border-radius: 14px;
+  transition-duration: $transition;
+}
+
+.buttonActive:hover {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  color: white;
+  background-color: $orange;
+  padding: 16px 80px;
+  border: 1px solid $orange;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.08);
+  border-radius: 14px;
+}
+
+.buttonError {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  color: #767676;
+  padding: 16px 80px;
+  background: #ebebeb;
+  border: 1px solid #ebebeb;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.08);
+  border-radius: 14px;
+}

@@ -1,0 +1,64 @@
+@import "../../scss/variables";
+
+.input {
+  width: 320px;
+  height: 52px;
+  border: 1px solid #dfdfdf;
+  border-radius: 14px;
+  padding-left: 24px;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #9c9c9c;
+  transition-duration: $transition;
+  margin-bottom: 16px;
+}
+
+.input:focus,
+.input:hover {
+  border: 1px solid #0d0d0d;
+  border-radius: 14px;
+  color: #0d0d0d;
+}
+
+.input.error:focus,
+.input.error:hover {
+  background: rgba(237, 27, 35, 0.1);
+  border: 1px solid #ed1b23;
+  border-radius: 14px;
+}
+
+.error {
+  background: rgba(237, 27, 35, 0.1);
+  border: 1px solid #ed1b23;
+  border-radius: 14px;
+}
+
+.inputContainer {
+  position: relative;
+}
+
+.eye {
+  position: absolute;
+  right: 25px;
+  top: 20px;
+}
+
+.closeEye {
+  position: absolute;
+  right: 25px;
+  top: 19px;
+}
+
+.errorText {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  color: #ed1b23;
+  position: absolute;
+  bottom: 0;
+}

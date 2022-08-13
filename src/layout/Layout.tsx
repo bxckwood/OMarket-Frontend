@@ -11,7 +11,9 @@ const Layout: FC = () => {
     <>
       <div className="container">
         <Header />
-        <Outlet />
+        <div className="center">
+          <Outlet />
+        </div>
         <Footer />
       </div>
     </>

@@ -1,0 +1,17 @@
+.formTitle {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+  text-align: center;
+  letter-spacing: -0.02em;
+  font-feature-settings: "liga" off;
+  color: #0d0d0d;
+  margin-bottom: 40px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
