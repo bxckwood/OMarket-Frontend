@@ -5,3 +5,8 @@
     flex-direction: column;
     justify-content: space-between;
 }   
+
+.center {
+    display: flex;
+    justify-content: center;
+}

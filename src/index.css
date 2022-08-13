@@ -84,10 +84,10 @@ h6 {
   font-family: "Gilroy";
   font-style: normal;
   font-weight: 100;
-  src: local("Gliroy-Thin"), url("../fonts/Gilroy-Thin.ttf") format("ttf"),
-    url("../fonts/Gilroy-Thin.woff2") format("woff2"),
-    url("../fonts/Gilroy-Thin.woff") format("woff"),
-    url("../fonts//Gilroy-Thin.eot") format("eot");
+  src: local("Gliroy-Thin"), url("./fonts/Gilroy-Thin.ttf") format("ttf"),
+    url("./fonts/Gilroy-Thin.woff2") format("woff2"),
+    url("./fonts/Gilroy-Thin.woff") format("woff"),
+    url("./fonts//Gilroy-Thin.eot") format("eot");
 }
 
 @font-face {
@@ -95,10 +95,10 @@ h6 {
   font-style: normal;
   font-weight: 200;
   src: local("Gliroy-UltraLight"),
-    url("../fonts/Gilroy-UltraLight.ttf") format("ttf"),
-    url("../fonts/Gilroy-UltraLight.woff2") format("woff2"),
-    url("../fonts/Gilroy-UltraLight.woff") format("woff"),
-    url("../fonts//Gilroy-UltraLight.eot") format("eot");
+    url("./fonts/Gilroy-UltraLight.ttf") format("ttf"),
+    url("./fonts/Gilroy-UltraLight.woff2") format("woff2"),
+    url("./fonts/Gilroy-UltraLight.woff") format("woff"),
+    url("./fonts//Gilroy-UltraLight.eot") format("eot");
 }
 
 @font-face {
@@ -106,27 +106,27 @@ h6 {
   font-style: normal;
   font-weight: 300;
   src: local("Gliroy-Light"),
-    url("../fonts/RadomirTinkov-Gilroy-Light.otf") format("otf");
+    url("./fonts/RadomirTinkov-Gilroy-Light.otf") format("otf");
 }
 
 @font-face {
   font-family: "Gilroy";
   font-style: normal;
   font-weight: 400;
-  src: local("Gliroy-Regular"), url("../fonts/Gilroy-Regular.ttf") format("ttf"),
-    url("../fonts/Gilroy-Regular.woff2") format("woff2"),
-    url("../fonts/Gilroy-Regular.woff") format("woff"),
-    url("../fonts//Gilroy-Regular.eot") format("eot");
+  src: local("Gliroy-Regular"), url("./fonts/Gilroy-Regular.ttf") format("ttf"),
+    url("./fonts/Gilroy-Regular.woff2") format("woff2"),
+    url("./fonts/Gilroy-Regular.woff") format("woff"),
+    url("./fonts//Gilroy-Regular.eot") format("eot");
 }
 
 @font-face {
   font-family: "Gilroy";
   font-style: normal;
   font-weight: 500;
-  src: local("Gliroy-Medium"), url("../fonts/Gilroy-Medium.ttf") format("ttf"),
-    url("../fonts/Gilroy-Medium.woff2") format("woff2"),
-    url("../fonts/Gilroy-Medium.woff") format("woff"),
-    url("../fonts//Gilroy-Medium.eot") format("eot");
+  src: local("Gliroy-Medium"), url("./fonts/Gilroy-Medium.ttf") format("ttf"),
+    url("./fonts/Gilroy-Medium.woff2") format("woff2"),
+    url("./fonts/Gilroy-Medium.woff") format("woff"),
+    url("./fonts//Gilroy-Medium.eot") format("eot");
 }
 
 @font-face {
@@ -134,20 +134,20 @@ h6 {
   font-style: normal;
   font-weight: 600;
   src: local("Gliroy-Semibold"),
-    url("../fonts/Gilroy-Semibold.ttf") format("ttf"),
-    url("../fonts/Gilroy-Semibold.woff2") format("woff2"),
-    url("../fonts/Gilroy-Semibold.woff") format("woff"),
-    url("../fonts//Gilroy-Semibold.eot") format("eot");
+    url("./fonts/Gilroy-Semibold.ttf") format("ttf"),
+    url("./fonts/Gilroy-Semibold.woff2") format("woff2"),
+    url("./fonts/Gilroy-Semibold.woff") format("woff"),
+    url("./fonts//Gilroy-Semibold.eot") format("eot");
 }
 
 @font-face {
   font-family: "Gilroy";
   font-style: normal;
   font-weight: 700;
-  src: local("Gliroy-Bold"), url("../fonts/Gilroy-Bold.ttf") format("ttf"),
-    url("../fonts/Gilroy-Bold.woff2") format("woff2"),
-    url("../fonts/Gilroy-Bold.woff") format("woff"),
-    url("../fonts//Gilroy-Bold.eot") format("eot");
+  src: local("Gliroy-Bold"), url("./fonts/Gilroy-Bold.ttf") format("ttf"),
+    url("./fonts/Gilroy-Bold.woff2") format("woff2"),
+    url("./fonts/Gilroy-Bold.woff") format("woff"),
+    url("./fonts//Gilroy-Bold.eot") format("eot");
 }
 
 @font-face {
@@ -155,17 +155,17 @@ h6 {
   font-style: normal;
   font-weight: 800;
   src: local("Gliroy-ExtraBold"),
-    url("../fonts/RadomirTinkov-Gilroy-ExtraBold.otf") format("otf");
+    url("./fonts/RadomirTinkov-Gilroy-ExtraBold.otf") format("otf");
 }
 
 @font-face {
   font-family: "Gilroy";
   font-style: normal;
   font-weight: 900;
-  src: local("Gliroy-Black"), url("../fonts/Gilroy-Black.ttf") format("ttf"),
-    url("../fonts/Gilroy-Black.woff2") format("woff2"),
-    url("../fonts/Gilroy-Black.woff") format("woff"),
-    url("../fonts//Gilroy-Black.eot") format("eot");
+  src: local("Gliroy-Black"), url("./fonts/Gilroy-Black.ttf") format("ttf"),
+    url("./fonts/Gilroy-Black.woff2") format("woff2"),
+    url("./fonts/Gilroy-Black.woff") format("woff"),
+    url("./fonts//Gilroy-Black.eot") format("eot");
 }
 
 html {
