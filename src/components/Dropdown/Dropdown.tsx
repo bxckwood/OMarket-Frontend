@@ -4,7 +4,7 @@ import { ReactComponent as ArrowDown } from "../../resources/dropdown/arrowdown.
 
 import styles from "../Dropdown/Dropdown.module.scss";
 
-const Dropdown: FC = ({dataDropdown}: any) => {
+const Dropdown: FC = ({dataDropdown, callback, dropdownId}: any) => {
   const [dropdownOpen, setDropdownOpen] = useState(false);
   const [isSelectedItem, setIsSelectedItem] = useState<boolean>(false);
   const [selectedItem, setSelectedItem] = useState<any>("");
@@ -38,12 +38,13 @@ const Dropdown: FC = ({dataDropdown}: any) => {
       >
         {dropdownOpen &&
           dataDropdown.select.map((elem: any, index: any) => {
-            const { item, img } = elem;
+            const { item, img, id } = elem;
             return (
               <div
                 onClick={() => {
                   setIsSelectedItem(true);
                   // @ts-ignore
+                  callback(dataDropdown.select[index], dropdownId)
                   setSelectedItem(dataDropdown.select[index]);
                 }}
                 className={styles.dropdownItem}
